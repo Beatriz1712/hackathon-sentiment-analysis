@@ -1,4 +1,4 @@
-# 🎯 Hackathon - Análisis de Sentimientos
+# Hackathon - Análisis de Sentimientos
 
 API de Machine Learning para clasificar sentimientos de comentarios como Positivos o Negativos.
 
@@ -73,3 +73,25 @@ git push origin feature/backend
 - PostgreSQL 15
 
 ---
+
+#   Para Data Science
+cd ~/hackathon-sentiment-analysis
+git checkout feature/data-science
+cd data-science
+source venv/bin/activate
+jupyter notebook
+# Trabajar en notebooks/training.ipynb
+
+
+#   Para Backend:
+cd ~/hackathon-sentiment-analysis
+git checkout feature/backend
+cd backend
+# Empezar a crear controllers, services, etc.
+
+
+#   Para Frontend:
+cd ~/hackathon-sentiment-analysis
+git checkout feature/frontend
+cd frontend
+npx create-react-app .
