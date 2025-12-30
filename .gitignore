@@ -30,3 +30,6 @@ frontend/.env.local
 .DS_Store
 *.swp
 *.tmp
+# IntelliJ / IDEs
+.idea/
+*.iml

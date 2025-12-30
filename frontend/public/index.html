@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sentiment Analysis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🧠 Sentiment Analysis</h1>
+    <p>Ingresa un texto y analiza su sentimiento</p>
+
+    <textarea
+      id="textInput"
+      placeholder="Escribe aquí tu texto..."
+      rows="4"
+    ></textarea>
+
+    <button id="analyzeBtn">Analizar</button>
+
+    <!-- Loader -->
+    <div id="loader" class="loader" style="display:none">
+      🧠 Analizando sentimiento...
+    </div>
+
+    <!-- Resultado -->
+    <div id="result" class="result" style="display:none">
+      <p><strong>Predicción:</strong> <span id="prediction"></span></p>
+      <p><strong>Probabilidad:</strong> <span id="probability"></span>%</p>
+
+      <div class="bar">
+        <div id="probabilityBar" class="fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../src/app.js"></script>
+</body>
+</html>
