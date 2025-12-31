@@ -9,9 +9,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.springframework.web.bind.annotation.CrossOrigin;
-
-@CrossOrigin(origins = "*")
 
 @Tag(name = "Sentiment Analysis", description = "Operaciones de análisis de sentimiento")
 @RestController
