@@ -70,7 +70,7 @@ categorías
 📌 Para este proyecto, solo se utiliza la columna texto como entrada del modelo, y sentimiento como objetivo variable.
 
 
- ##🔍 EXPLORACIÓN Y LIMPIEZA DE DATOS (EDA)
+ ## 🔍 EXPLORACIÓN Y LIMPIEZA DE DATOS (EDA)
 
 
 Durante el análisis exploratorio se realizó:
