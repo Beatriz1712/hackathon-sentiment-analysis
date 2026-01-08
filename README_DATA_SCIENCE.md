@@ -1,16 +1,17 @@
-#📊 Análisis de Sentimientos en Opiniones de Clientes Proyecto de Ciencia de Datos / PNL 📌 Descripción del proyecto
+## ANÁLISIS DE SENTIMEINTO
+
+📊 Análisis de Sentimientos en Opiniones de Clientes Proyecto de Ciencia de Datos / PNL 📌 Descripción del proyecto
 
 Este proyecto implementa un modelo de clasificación supervisada para realizar análisis de sentimientos sobre opiniones de clientes (reseñas, comentarios y encuestas de satisfacción).
 
 El objetivo es ayudar a áreas como Atención al Cliente, Marketing y Operaciones a entender rápidamente la percepción del cliente, clasificando los textos en tres categorías:
 
 ✅ Positivo
-
 ➖ Neutro
-
 ❌ Negativo
-
 🎯 Objetivo
+
+
 
 Desarrollar un pipeline de Procesamiento de Lenguaje Natural (NLP) que permita:
 
@@ -32,12 +33,17 @@ Clasificación multiclase
 
 Procesamiento de lenguaje natural (PNL)
 
-#📁 Estructura del proyecto
-├── dataset_sentimientos_robusto.csv ├── modelo_sentimientos.pkl ├── tfidf_vectorizador.pkl ├── pipeline_sentimientos.pkl ├── notebook.ipynb └── README_DATA_SCIENCE.md
+📁 Estructura del proyecto
+├── dataset_sentimientos_robusto.csv 
+├── modelo_sentimientos.pkl 
+├── tfidf_vectorizador.pkl 
+├── pipeline_sentimientos.pkl 
+├── notebook.ipynb 
+  └── README_DATA_SCIENCE.md
 
-🗃️ Conjunto de datos
+## CONJUNTO DE DATOS
 
-El conjunto de datos contiene opiniones de clientes junto con información adicional del proceso de atención.
+🗃️ El conjunto de datos contiene opiniones de clientes junto con información adicional del proceso de atención.
 
 #Columnas relevantes:
 
@@ -63,7 +69,9 @@ categorías
 
 📌 Para este proyecto, solo se utiliza la columna texto como entrada del modelo, y sentimiento como objetivo variable.
 
-🔍 Exploración y limpieza de datos (EDA)
+
+ ##🔍 EXPLORACIÓN Y LIMPIEZA DE DATOS (EDA)
+
 
 Durante el análisis exploratorio se realizó:
 
@@ -81,7 +89,9 @@ Variables numéricas: imputación mediante mediana
 
 Variables categóricas: imputación con categoría "Desconocido"
 
-🧹Preprocesamiento del texto
+
+## 🧹PREPROCESAMIENTO DE TEXTO
+
 
 Se aplicarán las siguientes técnicas de limpieza:
 
@@ -97,7 +107,9 @@ limpia conservación de palabras de negación (no, nunca, jamás, pecado)
 
 Este preprocesamiento permite reducir el ruido sin perder información semántica relevante para el análisis de sentimiento.
 
-🔢 Vectorización del texto (TF-IDF)
+
+## 🔢 VECTORIZACIÓN DE TEXTO (TF-IDF)
+
 
 El texto limpio se transformó en variables numéricas mediante TF-IDF (Term Frequency – Inverse Document Frequency), utilizando:
 
@@ -119,7 +131,9 @@ Interpretabilidad
 
 Eficiencia computacional
 
-📈 Evaluación del modelo
+
+## 📈 EVALUACIÓN DEL MODELO
+
 
 El modelo fue evaluado usando las siguientes métricas:
 
@@ -133,7 +147,9 @@ Puntuación F1
 
 Además, se utilizó un informe de clasificación para analizar el desempeño por clase.
 
-💾 Serialización del modelo
+
+## 💾 SERIALIZACIÓN DEL MODELO
+
 
 Para permitir su reutilización en producción, se serializaron:
 
@@ -145,18 +161,13 @@ Un pipeline completo (TF-IDF + modelo)
 
 Se utilizó la librería joblib.
 
-⚙️ Tecnologías y librerías utilizadas
+
+## ⚙️ TECNOLOGIAS Y LIBRERIAS UTILIZADAS
 
 -Python 3
-
 -pandas
-
 -Numpy
-
 -nltk
-
 -scikit-learn
-
 -matplotlib / nacido en el mar
-
 -biblioteca de trabajos
