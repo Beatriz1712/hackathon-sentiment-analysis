@@ -1,4 +1,4 @@
-📊 Análisis de Sentimientos en Opiniones de Clientes Proyecto de Ciencia de Datos / PNL 📌 Descripción del proyecto
+#📊 Análisis de Sentimientos en Opiniones de Clientes Proyecto de Ciencia de Datos / PNL 📌 Descripción del proyecto
 
 Este proyecto implementa un modelo de clasificación supervisada para realizar análisis de sentimientos sobre opiniones de clientes (reseñas, comentarios y encuestas de satisfacción).
 
@@ -32,13 +32,14 @@ Clasificación multiclase
 
 Procesamiento de lenguaje natural (PNL)
 
-📁 Estructura del proyecto ├── dataset_sentimientos_robusto.csv ├── modelo_sentimientos.pkl ├── tfidf_vectorizador.pkl ├── pipeline_sentimientos.pkl ├── notebook.ipynb └── README_DATA_SCIENCE.md
+#📁 Estructura del proyecto
+├── dataset_sentimientos_robusto.csv ├── modelo_sentimientos.pkl ├── tfidf_vectorizador.pkl ├── pipeline_sentimientos.pkl ├── notebook.ipynb └── README_DATA_SCIENCE.md
 
 🗃️ Conjunto de datos
 
 El conjunto de datos contiene opiniones de clientes junto con información adicional del proceso de atención.
 
-Columnas relevantes:
+#Columnas relevantes:
 
 texto: comentario u opinión del cliente (variable independiente)
 
