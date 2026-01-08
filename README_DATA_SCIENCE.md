@@ -32,7 +32,7 @@ Clasificación multiclase
 
 Procesamiento de lenguaje natural (PNL)
 
-📁 Estructura del proyecto ├── dataset_sentimientos_robusto.csv ├── modelo_sentimientos.pkl ├── tfidf_vectorizador.pkl ├── pipeline_sentimientos.pkl ├── notebook.ipynb └── LÉAME.md
+📁 Estructura del proyecto ├── dataset_sentimientos_robusto.csv ├── modelo_sentimientos.pkl ├── tfidf_vectorizador.pkl ├── pipeline_sentimientos.pkl ├── notebook.ipynb └── README_DATA_SCIENCE.md
 
 🗃️ Conjunto de datos
 
@@ -146,16 +146,16 @@ Se utilizó la librería joblib.
 
 ⚙️ Tecnologías y librerías utilizadas
 
-Python 3
+-Python 3
 
-pandas
+-pandas
 
-Numpy
+-Numpy
 
-nltk
+-nltk
 
-scikit-learn
+-scikit-learn
 
-matplotlib / nacido en el mar
+-matplotlib / nacido en el mar
 
-biblioteca de trabajos
+-biblioteca de trabajos
