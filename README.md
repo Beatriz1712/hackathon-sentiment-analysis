@@ -1,16 +1,16 @@
 # Hackathon - Análisis de Sentimientos
 
-API de Machine Learning para clasificar sentimientos de comentarios como Positivos o Negativos.
+API de Machine Learning diseñada para clasificar sentimientos en comentarios (Positivo/Negativo), permitiendo a las empresas automatizar la gestión de feedback y priorizar la atención al cliente.
 
 # Arquitectura
-Frontend (React) → Backend (Spring Boot) → ML Service (FastAPI) → PostgreSQL
+El proyecto sigue una arquitectura de microservicios e integración híbrida: Frontend (React/HTML) → Backend (Spring Boot) → ML Service (FastAPI) → H2/PostgreSQL
 
 ## Estructura
 hackathon-sentiment-analysis/
 ├── backend/          # API REST Spring Boot (Puerto 8080)
 ├── data-science/     # Modelo ML + API FastAPI (Puerto 8000)
 ├── frontend/         # Interfaz web React (Puerto 3000)
-└── docs/            # Documentación
+└── docs/            # Documentación y capturas
 
 # Inicio Rápido
 
@@ -65,12 +65,12 @@ git push origin feature/backend
 # feature/backend → develop
 ```
 
-## Tecnologías
+## Tecnologías Utilizadas
 
-- Java 17 + Spring Boot 3.x
-- Python 3.10 + scikit-learn + FastAPI
-- React 18
-- PostgreSQL 15
+- Backend: Java 17, Spring Boot 3.x, Spring Data JPA, Spring Security 6.
+- Data Science: Python 3.10, Scikit-learn, Pandas, FastAPI, Joblib.
+- Database: H2 (Desarrollo) / PostgreSQL (Producción).
+- Frontend: React 18, HTML5/JS (Fetch API).
 
 ---
 
