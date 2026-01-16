@@ -29,9 +29,11 @@ hackathon-sentiment-analysis/
 ├── data-science/      # Modelo ML + API FastAPI (Puerto 8000)
 ├── frontend/          # Interfaz web React & Estáticos (Puerto 3000)
 └── docs/              # Documentación y capturas
+```
 
 # Inicio Rápido
 ### Backend
+
 ```bash
 cd backend
 # La base de datos H2 se creará automáticamente en /data
@@ -92,22 +94,27 @@ git push origin feature/backend
 # Guía de Desarrollo por Área
 
 ## Para Data Science
+```bash
 cd ~/hackathon-sentiment-analysis
 git checkout feature/data-science
 cd data-science
 source venv/bin/activate
 jupyter notebook
 # Trabajar en notebooks/training.ipynb
-
+```
 
 ## Para Backend:
+```bash
 cd ~/hackathon-sentiment-analysis
 git checkout feature/backend
 cd backend
 # Desarrollo de controllers, services y configuración de seguridad
+```
 
 ## Para Frontend:
+```bash
 cd ~/hackathon-sentiment-analysis
 git checkout feature/frontend
 cd frontend
 # Para iniciar proyecto React o editar archivos estáticos en backend/src/main/resources/static
+```
