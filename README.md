@@ -2,10 +2,28 @@
 
 API de Machine Learning diseñada para clasificar sentimientos en comentarios (Positivo/Negativo), permitiendo a las empresas automatizar la gestión de feedback y priorizar la atención al cliente.
 
-# Arquitectura
-El proyecto sigue una arquitectura de microservicios e integración híbrida: Frontend (React/HTML) → Backend (Spring Boot) → ML Service (FastAPI) → H2/PostgreSQL
+## Integrantes del Equipo
+| Nombre Completo | Usuario GitHub | Backend Developer | Data Scientist | Frontend Developer |
+| :--- | :--- | :---: | :---: | :---: |
+| Carlos Eduardo Ramírez Wong | CarlosRW | X | | X |
+| Raidel Rodriguez | | X | | |
+| Diego Vásquez | | X | | |
+| Diego Chacon Macias | | X | | |
+| Matias Schaff | | X | | |
+| Alexander Florez Quintero | alexander-fq | | X | |
+| Gisell López | | | X | |
+| Beatriz Suyo | | | X | |
+| Erik Gonzalez | | | X | |
+| Mailyn Zuñiga Padilla | | | X | |
+| Miguel Angel Oropeza G. | | | X | |
+| Eduin Pino | | | X | |
 
-## Estructura
+# Arquitectura
+El proyecto sigue una arquitectura de microservicios e integración híbrida:
+**Frontend (React/HTML)** → **Backend (Spring Boot)** → **ML Service (FastAPI)** → **H2/PostgreSQL**
+
+## Estructura del Proyecto
+```text
 hackathon-sentiment-analysis/
 ├── backend/           # API REST Spring Boot (Puerto 8080)
 ├── data-science/      # Modelo ML + API FastAPI (Puerto 8000)
@@ -13,7 +31,6 @@ hackathon-sentiment-analysis/
 └── docs/              # Documentación y capturas
 
 # Inicio Rápido
-
 ### Backend
 ```bash
 cd backend
@@ -49,11 +66,6 @@ npm start
 - `POST /predict` - Predecir sentimiento
 - `GET /health` - Health check
 - `GET /docs` - Documentación Swagger
-
-## Equipo
-- **Backend**: [Nombres]
-- **Data Science**: [Nombres]
-- **Frontend**: [Nombres]
 
 ## Git Workflow
 ```bash
